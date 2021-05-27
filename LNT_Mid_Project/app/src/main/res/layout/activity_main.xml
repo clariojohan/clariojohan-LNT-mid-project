@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="HOMEPAGE"
+        android:textSize="60dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pagani_zonda"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/carName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Car Name  : Pagani Zonda Black"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/carBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Brand     : Pagani Zonda"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/carType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Type      : Super Car"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/topSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Top Speed : 300 mph"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <Button
+        android:id="@+id/purchaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="PURCHASE"
+        android:fontFamily="monospace"
+        />
+
+</LinearLayout>
